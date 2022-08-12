@@ -15,7 +15,11 @@ body {
 }
 
 .hero-container {
-    margin-left: 40px;
+    margin-left: none;
+
+    @media (min-width: $breakpoint-small) {
+        margin-left: 40px;
+    }
 }
 
 /* MEDIA QUERIES */
